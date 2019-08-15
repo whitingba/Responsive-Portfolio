@@ -105,6 +105,15 @@ h2 {
     padding-bottom: 20px;
     height: auto;
 }
+
+.sub-section {
+    width: 960px;
+    background-color: white;
+    margin: auto;
+    height: auto;
+    padding-bottom: 20px;
+    margin-bottom: 70px;
+}
 /* End of all pages css styling */
 
 
@@ -112,16 +121,38 @@ h2 {
 /* This section is for the About page only */
 
 .myPic {
+    border-radius: 50%;
     float: left;
     width: 200px;
     height: auto;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
 }
 
 .aboutMeParagraphs {
     padding: 15px 20px 20px 20px;
     line-height: 25px;
 }
+
+.LI-profile-badge {
+    padding: 20px;
+    
+}
+
+#resume {
+     margin-top: 30px;
+     display: inline-block;
+    }
+
+    .resumeImg {
+        width: 175px;
+        height: 175px;
+        margin-left: 15px;
+        
+    }
+
+    #resumeText {
+        
+    }
 
 /* End of About Me styling */
 
@@ -247,6 +278,10 @@ textarea {
 @media screen and (max-width: 768px) {
 
 .main-section {
+    width: 90%;
+}
+
+.sub-section {
     width: 90%;
 }
 
