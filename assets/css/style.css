@@ -97,7 +97,7 @@ h2 {
 }
 
 .main-section {
-    width: 960px;
+    width: auto;
     background-color: white;
     margin: auto;
     margin-top: 20px;
