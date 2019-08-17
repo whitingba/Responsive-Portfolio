@@ -97,7 +97,7 @@ h2 {
 }
 
 .main-section {
-    width: auto;
+    width: 960px;
     background-color: white;
     margin: auto;
     margin-top: 20px;
@@ -106,14 +106,14 @@ h2 {
     height: auto;
 }
 
-.sub-section {
+/* .sub-section {
     width: 960px;
     background-color: white;
     margin: auto;
     height: auto;
     padding-bottom: 20px;
     margin-bottom: 70px;
-}
+} */
 /* End of all pages css styling */
 
 
@@ -213,6 +213,16 @@ h2 {
 
 
 /* Start Contact page styling */
+
+.fa-linkedin {
+    height: 25px;
+    width: 25px;
+    background-color: #4aaaa5;
+    padding: 4px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+}
 
 form {
     padding: 20px;
